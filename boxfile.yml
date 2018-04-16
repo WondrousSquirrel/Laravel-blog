@@ -1,0 +1,16 @@
+run.config:
+  engine: php
+  engine.config:
+    runtime: php-7.1
+    webserver: nginx
+    document_root: public
+    extensions:
+      - pdo
+      - mbstring
+      - tokenizer
+      - session
+      - zip
+      - dom
+      - xml
+      - ctype
+      - xmlwriter
