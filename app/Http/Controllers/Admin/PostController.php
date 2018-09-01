@@ -51,14 +51,17 @@ class PostController extends Controller
             'subtitle' => 'required',
             'slug' => 'required',
             'body' => 'required',
-            'image' => 'required'
+            'image' => 'required',
         ]);
 
         // проверка на наличие файла
         if($request->hasFile('image')){
             // место сохранения полученного файла - storage\app\public
             $imageName = $request->image->store('public');
-        } 
+
+            //return $request->image->getClientOriginalName();
+
+        }
 
         $post = new post;
         $post->title = $request->title;

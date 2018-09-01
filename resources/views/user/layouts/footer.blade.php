@@ -19,7 +19,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/alexzenderA">
+                            <a href="https://github.com/WondrousSquirrel">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
